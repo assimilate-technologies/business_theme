@@ -39,7 +39,7 @@ app_include_css = "/assets/business_theme_v14/css/business_theme_v14.css"
 # Svg Icons
 # ------------------
 # include app icons in desk
- app_include_icons = "business_theme_v14/public/icons.svg"
+app_include_icons = "business_theme_v14/public/icons.svg"
 
 # Home Pages
 # ----------
@@ -200,7 +200,6 @@ app_include_css = "/assets/business_theme_v14/css/business_theme_v14.css"
 # Recommended only for DocTypes which have limited documents with untranslated names
 # For example: Role, Gender, etc.
 # translated_search_doctypes = []
-fixtures=[
-"Workspace"
-
+fixtures = [
+{"doctype": "Workspace", "filters":[]},
 ]
